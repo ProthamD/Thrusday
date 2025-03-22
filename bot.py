@@ -4,6 +4,7 @@ from config import OPENROUTER_API_KEY, MAX_HISTORY_LENGTH
 from utils.data_helpers import load_user_data, save_user_data
 from cogs.moderation import Moderation
 from cogs.image_generation import ImageGeneration
+from cogs.chat import Chat  # Import the Chat cog
 
 # Initialize bot
 intents = discord.Intents.default()
@@ -17,6 +18,7 @@ user_data = load_user_data()
 async def setup_cogs():
     await bot.add_cog(Moderation(bot))
     await bot.add_cog(ImageGeneration(bot))
+    await bot.add_cog(Chat(bot))  # Add the Chat cog
 
 @bot.event
 async def on_ready():
