@@ -50,3 +50,52 @@ Welcome to **Thursday**, your all-in-one Discord moderation and interaction bot.
    ```bash
    git clone https://github.com/your-repo/thursday-bot.git
    cd thursday-bot
+## *Install Dependencies:*
+
+  bash
+    Copy
+  pip install -r requirements.txt
+  Set Up Environment Variables:
+
+Create a .env file in the root directory.
+
+Add the following variables:
+
+plaintext
+Copy
+TOKEN=your_discord_bot_token
+OPENROUTER_API_KEY=your_openrouter_api_key
+STABLE_HORDE_API_KEY=your_stable_horde_api_key
+Run the Bot:
+
+bash
+Copy
+python bot.py
+# **⚙️ Configuration**
+Customizing Bad Words
+Edit the bad_words list in the code to add or remove words that Thursday should filter.
+
+Adjusting Conversation History Length
+Modify the MAX_HISTORY_LENGTH variable to control how many messages Thursday remembers for each user.
+
+### **Changing AI Model**
+Update the model parameter in the OpenRouter API request to use a different AI model.
+
+### **🤝 Support and Contributions**
+If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Your feedback is invaluable in making Thursday even better!
+
+### **⚠️ Disclaimer**
+Thursday is designed to maintain a respectful and safe environment. However, no AI system is perfect. If you notice any issues with moderation or behavior, please report them immediately.
+
+### **📜 License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Enjoy your time with Thursday – the smart, stylish, and super-efficient Discord SuperMod bot! 🚀
+
+Copy
+
+### How to Use:
+1. Copy the entire content above.
+2. Create a file named `README.md` in your project directory.
+3. Paste the copied content into the `README.md` file.
+4. Save the file.
