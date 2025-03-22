@@ -50,27 +50,27 @@ Welcome to **Thursday**, your all-in-one Discord moderation and interaction bot.
    ```bash
    git clone https://github.com/your-repo/thursday-bot.git
    cd thursday-bot
-## *Install Dependencies:*
+# *Install Dependencies:*
 
-  bash
-    Copy
-  pip install -r requirements.txt
-  Set Up Environment Variables:
+ bash
+ Copy
+   ```pip install -r requirements.txt ```
+  Set Up Environment Variables: 
 
-Create a .env file in the root directory.
+#### Create a .env file in the root directory.
 
 Add the following variables:
 
 plaintext
 Copy
-TOKEN=your_discord_bot_token
-OPENROUTER_API_KEY=your_openrouter_api_key
-STABLE_HORDE_API_KEY=your_stable_horde_api_key
+```TOKEN=your_discord_bot_token```
+```OPENROUTER_API_KEY=your_openrouter_api_key```
+```STABLE_HORDE_API_KEY=your_stable_horde_api_key```
 Run the Bot:
 
 bash
 Copy
-python bot.py
+```python bot.py```
 # **⚙️ Configuration**
 Customizing Bad Words
 Edit the bad_words list in the code to add or remove words that Thursday should filter.
