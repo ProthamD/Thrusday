@@ -88,7 +88,7 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 Thursday is designed to maintain a respectful and safe environment. However, no AI system is perfect. If you notice any issues with moderation or behavior, please report them immediately.
 
 ### **📜 License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is **Copyrighted and Licesenced** 
 
 Enjoy your time with Thursday – the smart, stylish, and super-efficient Discord SuperMod bot! 🚀
 
